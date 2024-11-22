@@ -14,7 +14,7 @@
   /* overrides */
   --sn-stylekit-contrast-background-color: #f6f6f6;
   --sn-stylekit-contrast-border-color: #e3e3e3;
-  --sn-stylekit-secondary-foreground-color: #f6f6f6;
+  --sn-stylekit-secondary-foreground-color: var( --secondary-color-bg);
   --sn-stylekit-secondary-border-color: #e3e3e3;
   --sn-stylekit-secondary-contrast-background-color: #e3e3e3;
   --sn-stylekit-secondary-contrast-foreground-color: var(--primary-color-text);
