@@ -10,11 +10,12 @@
   --primary-color-ui: #D43316;
   --secondary-color-ui: #f7ca18;
   --primary-color-text: #303030;
+  --secondary-color-text: #FFFFFF;
 
   /* overrides */
   --sn-stylekit-monospace-font: 'Roboto Mono', monospace;
   --sn-stylekit-info-color: var(--primary-color-ui);
-  --sn-stylekit-info-contrast-color: white;
+  --sn-stylekit-info-contrast-color: var(--secondary-color-text);
   --sn-stylekit-accessory-tint-color-1: var(--primary-color-ui);
 
   --sn-stylekit-background-color: var(--primary-color-bg);
@@ -27,7 +28,11 @@
   --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
 
 }
-
+#navigation .tag>.tag-info>.title, 
+#navigation .root-drop>.tag-info>.title{
+  color: var(--secondary-color-text);
+  -webkit-text-fill-color: var(--secondary-color-text);
+}
 
 #navigation .tag.selected>.tag-info>.title, 
 #navigation .tag:hover:not(.selected), 
