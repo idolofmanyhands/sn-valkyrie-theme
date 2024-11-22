@@ -26,11 +26,12 @@
   --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
   --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
 
-  #navigation .tag.selected>.tag-info>.title, 
-  #navigation .tag:hover:not(.selected), 
-  #navigation .root-drop:hover:not(.selected){
-    color: var(--secondary-color-ui);
-    -webkit-text-fill-color: var(--secondary-color-ui);
-  }
+}
 
+
+#navigation .tag.selected>.tag-info>.title, 
+#navigation .tag:hover:not(.selected), 
+#navigation .root-drop:hover:not(.selected){
+  color: var(--secondary-color-ui);
+  -webkit-text-fill-color: var(--secondary-color-ui);
 }
