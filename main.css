@@ -32,6 +32,6 @@
 #navigation .tag.selected>.tag-info>.title, 
 #navigation .tag:hover:not(.selected), 
 #navigation .root-drop:hover:not(.selected){
-  color: var(--secondary-color-ui);
-  -webkit-text-fill-color: var(--secondary-color-ui);
+  color: var(--primary-color-text);
+  -webkit-text-fill-color: var(--primary-color-text);
 }

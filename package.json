@@ -1,6 +1,6 @@
 {
   "name": "sn-valkyrie-theme",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "sn": {
       "main": "main.css"
   },
