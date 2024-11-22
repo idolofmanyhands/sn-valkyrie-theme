@@ -40,8 +40,7 @@
 }
 
 #navigation .tag.selected>.tag-info>.title, 
-#navigation .tag:hover:not(.selected), 
-#navigation .root-drop:hover:not(.selected){
-  color: var(--primary-color-text)!important;
-  -webkit-text-fill-color: var(--primary-color-text)!important;
+#navigation .tag:hover:not(.selected)>.tag-info>.title{
+  color: var(--primary-color-text);
+  -webkit-text-fill-color: var(--primary-color-text);
 }
