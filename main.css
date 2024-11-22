@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/roboto-mono');
+@import url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono@2.304/');
 
 :root {
   /* based on default theme */
@@ -19,7 +19,7 @@
   --sn-stylekit-secondary-contrast-background-color: #e3e3e3;
   --sn-stylekit-secondary-contrast-foreground-color: var(--primary-color-text);
   --sn-styleki--secondary-contrast-border-color: #a2a2a2;
-  --sn-stylekit-monospace-font: 'Roboto Mono', monospace;
+  --sn-stylekit-monospace-font: 'JetBrains Mono', monospace;
   --sn-stylekit-info-color: var(--primary-color-ui);
   --sn-stylekit-info-contrast-color: var(--secondary-color-text);
   --sn-stylekit-accessory-tint-color-1: var(--primary-color-ui);
@@ -42,6 +42,6 @@
 #navigation .tag.selected>.tag-info>.title, 
 #navigation .tag:hover:not(.selected), 
 #navigation .root-drop:hover:not(.selected){
-  color: var(--primary-color-text);
-  -webkit-text-fill-color: var(--primary-color-text);
+  color: var(--primary-color-text)!important;
+  -webkit-text-fill-color: var(--primary-color-text)!important;
 }
